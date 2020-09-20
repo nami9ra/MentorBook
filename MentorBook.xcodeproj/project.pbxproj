@@ -15,6 +15,10 @@
 		112C281725107B99009AA08A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112C281525107B99009AA08A /* LaunchScreen.storyboard */; };
 		112C282225107B99009AA08A /* MentorBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C282125107B99009AA08A /* MentorBookTests.swift */; };
 		112C282D25107B99009AA08A /* MentorBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C282C25107B99009AA08A /* MentorBookUITests.swift */; };
+		112C283D25107C0C009AA08A /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 112C283A25107C0C009AA08A /* nagata.jpg */; };
+		112C283E25107C0C009AA08A /* taithi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 112C283B25107C0C009AA08A /* taithi.jpg */; };
+		112C283F25107C0C009AA08A /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 112C283C25107C0C009AA08A /* ryo.jpg */; };
+		112C284125107E2F009AA08A /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C284025107E2F009AA08A /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		112C282825107B99009AA08A /* MentorBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentorBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		112C282C25107B99009AA08A /* MentorBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorBookUITests.swift; sourceTree = "<group>"; };
 		112C282E25107B99009AA08A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112C283A25107C0C009AA08A /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nagata.jpg; path = images/nagata.jpg; sourceTree = SOURCE_ROOT; };
+		112C283B25107C0C009AA08A /* taithi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = taithi.jpg; path = images/taithi.jpg; sourceTree = SOURCE_ROOT; };
+		112C283C25107C0C009AA08A /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ryo.jpg; path = images/ryo.jpg; sourceTree = SOURCE_ROOT; };
+		112C284025107E2F009AA08A /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,9 @@
 		112C280925107B96009AA08A /* MentorBook */ = {
 			isa = PBXGroup;
 			children = (
+				112C283A25107C0C009AA08A /* nagata.jpg */,
+				112C283C25107C0C009AA08A /* ryo.jpg */,
+				112C283B25107C0C009AA08A /* taithi.jpg */,
 				112C280A25107B96009AA08A /* AppDelegate.swift */,
 				112C280C25107B96009AA08A /* SceneDelegate.swift */,
 				112C280E25107B96009AA08A /* ViewController.swift */,
@@ -106,6 +117,7 @@
 				112C281325107B99009AA08A /* Assets.xcassets */,
 				112C281525107B99009AA08A /* LaunchScreen.storyboard */,
 				112C281825107B99009AA08A /* Info.plist */,
+				112C284025107E2F009AA08A /* Mentor.swift */,
 			);
 			path = MentorBook;
 			sourceTree = "<group>";
@@ -232,9 +244,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112C283F25107C0C009AA08A /* ryo.jpg in Resources */,
 				112C281725107B99009AA08A /* LaunchScreen.storyboard in Resources */,
+				112C283D25107C0C009AA08A /* nagata.jpg in Resources */,
 				112C281425107B99009AA08A /* Assets.xcassets in Resources */,
 				112C281225107B96009AA08A /* Main.storyboard in Resources */,
+				112C283E25107C0C009AA08A /* taithi.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112C284125107E2F009AA08A /* Mentor.swift in Sources */,
 				112C280F25107B96009AA08A /* ViewController.swift in Sources */,
 				112C280B25107B96009AA08A /* AppDelegate.swift in Sources */,
 				112C280D25107B96009AA08A /* SceneDelegate.swift in Sources */,
